@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public Camera mainCamera;
     public Camera secondCamera;
     public KeyCode switchKey;
+
+    public string inputID;
     
     void Update()
     {
@@ -22,8 +24,8 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("Pause");
         }
         
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal" + inputID);
+        forwardInput = Input.GetAxis("Vertical" + inputID);
         // Moves the car forward based on vertical input
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         // Rotates the car based on horizontal input

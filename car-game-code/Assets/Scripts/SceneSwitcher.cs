@@ -17,5 +17,16 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
     }
+
+    public void coop()
+    {
+        SceneManager.LoadScene("level002");
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit!");
+    }
  
 }

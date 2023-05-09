@@ -354,6 +354,7 @@
 "Assets/Scripts/OncomingVehicles.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneSwitcher.cs"
+"Assets/Scripts/SinglePlayerController.cs"
 "Assets/Scripts/VehicleSpawner.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
