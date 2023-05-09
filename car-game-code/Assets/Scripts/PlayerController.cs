@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
     private float turnSpeed = 35.0f;
     private float horizontalInput;
     private float forwardInput;
+
+    public Camera mainCamera;
+    public Camera secondCamera;
+    public KeyCode switchKey;
     
     void Update()
     {
@@ -25,7 +29,11 @@ public class PlayerController : MonoBehaviour
         // Rotates the car based on horizontal input
         transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
         
-
+        if(Input.GetKeyDown(switchKey))
+        {
+            mainCamera.enabled = !mainCamera.enabled;
+            secondCamera.enabled = !secondCamera.enabled;
+        }
     }        
 
 }

@@ -348,6 +348,7 @@
 "Assets/Scripts/FinishLine.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/FollowPlayer2.cs"
+"Assets/Scripts/FollowPlayerSecondCamera.cs"
 "Assets/Scripts/LastLevelEnd.cs"
 "Assets/Scripts/LevelReset.cs"
 "Assets/Scripts/OncomingVehicles.cs"
