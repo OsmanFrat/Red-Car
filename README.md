@@ -1,5 +1,5 @@
 # Red-Car
-Unity game tutorial project\
+Unity game tutorial project
 
 https://github.com/OsmanFrat/Red-Car/assets/69113898/06ed45b6-8824-4683-90ba-404d3204d4cb
 
